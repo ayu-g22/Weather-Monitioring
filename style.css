@@ -1,0 +1,38 @@
+.gradient-custom {
+  background: #ffffff;
+  background: -webkit-linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 236, 210, 1));
+  background: linear-gradient(to right, rgba(255, 255, 255, 1), rgba(255, 236, 210, 1))
+}
+
+.carousel-indicators li {
+  background-color: #282828;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  font-family: 'Rock 3D', cursive;
+}
+h1{
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-family: 'Sedgwick Ave', cursive;
+  padding: 25px;
+}
+.butto{
+  align-content: center;
+}
+.animate{
+  animation: fadeInAnimation ease 3s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+  0% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 1;
+  }
+}
+#detail1,#detail2{
+  display: none;
+}

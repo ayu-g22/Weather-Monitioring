@@ -1,0 +1,3 @@
+temperature=40
+humidity=50
+windspeed=140
